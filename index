@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Blog</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>My Blog</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section class="hero">
+    <h2>Welcome to the Blog</h2>
+    <p>Thoughts, tutorials, and ideas.</p>
+</section>
+
+<section class="posts">
+
+<article class="card">
+<h3>First Blog Post</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Short preview of the article.</p>
+<button>Read More</button>
+</article>
+
+<article class="card">
+<h3>Design Tips</h3>
+<p>Learn how to create better layouts and improve your UI designs.</p>
+<button>Read More</button>
+</article>
+
+<article class="card">
+<h3>Web Development</h3>
+<p>Modern HTML, CSS, and JavaScript tips for building websites.</p>
+<button>Read More</button>
+</article>
+
+</section>
+
+</main>
+
+<footer>
+<p>© 2026 My Blog</p>
+</footer>
+
+</body>
+</html>

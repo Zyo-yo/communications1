@@ -25,6 +25,11 @@ color:#e38057;
 text-decoration: none;
 }
 
+header h1 a:hover{
+color:#FFF;
+text-decoration: none;
+}
+
 nav ul{
 list-style:none;
 display:flex;

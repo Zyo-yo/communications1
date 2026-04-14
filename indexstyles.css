@@ -118,24 +118,38 @@ font-size:30px;
 padding:20px;
 }
 
-.pageup h4{
-background:#b0352d;
-border:none;
-margin: 10px auto;
-padding:10px 15px;
-color:white;
-cursor:pointer;
-border-radius:5px;
-text-align: center;
-width: 20%;
+#biblio{
+	font-size: 1em;
 }
 
-.pageup h4:hover{
-background:#e38057;
+
+.pageup h4,
+.return h4 {
+  background:#b0352d;
+  border:none;
+  margin: 10px 0;
+  padding:10px 15px;
+  color:white;
+  cursor:pointer;
+  border-radius:5px;
+  text-align: center;
+  width: 150px;
 }
-.pageup a{
-color:#FFF;
-text-decoration: none;
+.pageup a,
+.return a{
+	color:#FFF;
+	text-decoration: none;
+}
+
+.pageup h4:hover,
+.return h4:hover {
+  background:#e38057;
+}
+
+.buttons{
+	display: flex;
+	justify-content: center; /* centers both buttons */
+	gap: 20px; /* space between them */
 }
 
 .content p{
@@ -170,6 +184,45 @@ text-align: justify;
 	border: inset 3px black;
 }
 
+
+
+/*Profiles*/
+.profiles {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 10px;
+  flex-wrap: wrap; /* makes it responsive */
+}
+
+.backs{
+	background:#000;
+}
+
+.profile {
+  width: 40%;
+  text-align: center;
+  background:#5f1317;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,1);
+}
+
+.profile img {
+  width: 80%;
+  height: 40%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.profile h3 {
+  margin: 5px 0;
+}
+
+.profile p {
+  font-size: 1.2em;
+  color: #FFF;
+}
 
 /* Footer */
 
